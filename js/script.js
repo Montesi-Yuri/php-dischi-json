@@ -5,5 +5,8 @@ createApp({
         return {
         message: 'Hello Vue!'
         }
+    },
+    created(){
+        axios.get('')
     }
 }).mount('#app')

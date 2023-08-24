@@ -14,9 +14,49 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js" integrity="sha512-uMtXmF28A2Ab/JJO2t/vYhlaa/3ahUOgj1Zf27M5rOo8/+fcTUVH0/E0ll68njmjrLqOBjXM3V9NiPFL5ywWPQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     </head>
     <body>
-
         <div id="app">
-            {{ message }}
+            
+            <header>
+                <h1 class="text-center">
+                    Discs Databass
+                </h1>
+            </header>
+            <main>
+                <div class="container">
+
+                    <div class="row flex-wrap justify-content">
+
+                        <div class="single-disc col text-center bg-primary p-3 border rounded border-white">
+                            <img src="" alt="">
+                            <h3>Title</h3>
+                            <h4>Artist</h4>
+                        </div>
+                        <div class="single-disc col text-center bg-primary p-3 border rounded border-white">
+                            <img src="" alt="">
+                            <h3>Title</h3>
+                            <h4>Artist</h4>
+                        </div>
+                        <div class="single-disc col text-center bg-primary p-3 border rounded border-white">
+                            <img src="" alt="">
+                            <h3>Title</h3>
+                            <h4>Artist</h4>
+                        </div>
+                        <div class="single-disc col text-center bg-primary p-3 border rounded border-white">
+                            <img src="" alt="">
+                            <h3>Title</h3>
+                            <h4>Artist</h4>
+                        </div>
+                        <div class="single-disc col text-center bg-primary p-3 border rounded border-white">
+                            <img src="" alt="">
+                            <h3>Title</h3>
+                            <h4>Artist</h4>
+                        </div>
+
+                    </div>
+
+                </div>
+            </main>
+
         </div>
         
 
