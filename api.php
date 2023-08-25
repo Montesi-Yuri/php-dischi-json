@@ -31,6 +31,7 @@
             'img' => "https://i.scdn.co/image/ab67616d0000b273250c75ece251118d80d3931f"
         ]
     ];
+    header('Content-Type: application/json');
     $jsonString = json_encode($discs);
 
     file_put_contents('database/discs.json', $jsonString);
